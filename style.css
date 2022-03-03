@@ -66,6 +66,13 @@ body {
     border-radius: 15px;
     padding: 10px;
     box-shadow: 10px 10px 10px gray;
+    height: 200px;
+    min-width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.projectCards > p {
 }
 
 .contentRight {
@@ -108,6 +115,7 @@ body {
     border-width: 1px;
     padding: 10px;
     font-size: small;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .community,
