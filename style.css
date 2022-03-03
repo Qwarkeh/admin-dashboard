@@ -28,7 +28,6 @@ body {
 }
 
 .header {
-    border: solid green;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
@@ -38,3 +37,30 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 70px 100px;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.yourProjects {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.projectCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.announcements {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.trending {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
