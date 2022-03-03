@@ -21,6 +21,7 @@ body {
 .sidebarLinks2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 5px;
 }
 
 .sidebarLinks1{
@@ -64,3 +65,14 @@ body {
     grid-row: 2 / 3;
 }
 
+.icon {
+    height: 20px;
+}
+
+.avatar {
+    height: 30px;
+}
+
+.logo {
+    height: 50px;
+}
