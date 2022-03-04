@@ -209,10 +209,11 @@ button:hover {
     grid-row: 2 / 3;
 }
 
-.icon {
+.iconSidebar {
     display: grid;
     height: 30px;
     padding: 2px;
+    filter: invert(87%) sepia(12%) saturate(351%) hue-rotate(85deg) brightness(110%) contrast(98%);
 }
 
 .avatar {
@@ -222,6 +223,7 @@ button:hover {
 
 .logo {
     height: 65px;
+    filter: invert(87%) sepia(12%) saturate(351%) hue-rotate(85deg) brightness(110%) contrast(98%);
 }
 
 .cardIcons {
