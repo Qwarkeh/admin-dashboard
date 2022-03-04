@@ -285,3 +285,12 @@ h4 {
 .trend > p {
 margin-top: -2px;
 }
+
+.superCoolProj,
+.lessCoolProj,
+.impossibleApp,
+.easyApp,
+.adBlocker,
+.moneyMaker {
+    background-color: #F0FDF4;
+}
