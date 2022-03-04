@@ -25,7 +25,7 @@ body {
 .sidebarLinks1,
 .sidebarLinks2 {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 4fr;
     gap: 5px;
     align-items: center;
     color: #DCFCE7;
@@ -60,17 +60,17 @@ a:hover {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
-
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 40px;
+    grid-template-rows: 40px 80px;
 
     box-shadow: 5px 5px 5px gray;
-
     background-color: #DCFCE7;
 }
 
@@ -86,7 +86,8 @@ a:hover {
     height: 30px;
     border-radius: 15px;
     background-color: #F0FDF4;
-    border: solid #86EFAC;
+    border: solid #166534;
+    border-width: 1px;
     padding-left: 15px;
 }
 
@@ -103,7 +104,7 @@ a:hover {
 .greeting {
     display: grid;
     grid-template-columns: 50px 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40px 40px;
     column-gap: 5px;
 }
 
@@ -145,7 +146,14 @@ button {
     color: #DCFCE7;
     font-weight: 600;
     border-radius: 10px;
+    border-color: #166534;
+    border-width: 2px;
 }
+
+button:hover {
+    background-color: #15803D;
+}
+
 
 .content {
     grid-column: 2 / 3;
@@ -175,7 +183,7 @@ button {
 }
 
 .projectCards > * {
-    border: solid black;
+    border: solid #166534;
     border-width: 1px;
     border-radius: 15px;
     padding: 10px;
@@ -228,7 +236,7 @@ button {
 
 .announcementContent,
 .trendingContent {
-    border: solid black;
+    border: solid #166534;
     border-radius: 15px;
     border-width: 1px;
     padding: 10px;
