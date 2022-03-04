@@ -233,6 +233,7 @@ button {
 
 .announcementContent {
     margin-top: -1px;
+    background-color: #F0FDF4;
 }
 
 .community,
@@ -260,6 +261,7 @@ h4 {
 .trendingContent{
     display: flex;
     flex-direction: column;
+    background-color: #F0FDF4;
 }
 
 .trend {
